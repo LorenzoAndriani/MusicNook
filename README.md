@@ -18,7 +18,7 @@ Lo scopo di questo progetto è quello di creare un'appicazione multi-piattaforma
 
 - Prossime uscite (che potranno essere notificate).
 
-- Tour. (con link diretto all'acquisto dei biglietti)
+- Tour (con link diretto all'acquisto dei biglietti)
 
 A maggiore integrazione nell'applicazione potrà essere inserita una sezione contente degli **articoli estratti** dai vari magazine online.
 
