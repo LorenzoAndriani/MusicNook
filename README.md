@@ -35,7 +35,7 @@ Come risultato finale ci si aspetta un'applicazione facile nel suo utilizzo e ch
 
 # Sommario
   
-  Inizialmente è stata fatta una ricerca su un campione di 12 persone per capire le necessità e l'interesse su cui verte l'attezione di alcuni possibili fruitori finali. A questo scopo è stato creato un modulo Google (link) e sono stati raccolti dati e idee per il progetto. 
+  Inizialmente è stata fatta una ricerca su un campione di 12 persone per capire le necessità e l'interesse su cui verte l'attezione di alcuni possibili fruitori finali. A questo scopo è stato creato un modulo Google [link](https://forms.gle/14nzKjwpztQkoJcHA) e sono stati raccolti dati e idee per il progetto. 
 
 # Documenti del progetto
   
