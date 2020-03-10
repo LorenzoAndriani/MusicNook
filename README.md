@@ -39,7 +39,7 @@ Come risultato finale ci si aspetta un'applicazione facile nel suo utilizzo e ch
 
 # Documenti del progetto
   
-Qui sono presenti le statistiche ottenuto e gli eventuali commenti da parte degli utenti[(link)](https://github.com/LorenzoAndriani/progettoHCI/tree/master/Statistiche)
+Qui sono presenti le statistiche ottenuto e gli eventuali commenti da parte degli utenti [(link)](https://github.com/LorenzoAndriani/progettoHCI/tree/master/Statistiche)
 
 # Bibliografia
 
