@@ -20,7 +20,7 @@ Lo scopo di questo progetto è quello di creare un'appicazione multi-piattaforma
 
 - Live: Una lista di live.
 
-Inoltre gli artisti/band potranno essere suddivisi in **sottocategorie** come genere musicale, anni di attività e altro.
+Eventualmente gli artisti/band potranno essere suddivisi in **sottocategorie** come genere musicale, anni di attività e altro.
 
 # Linguaggi e IDE
 
