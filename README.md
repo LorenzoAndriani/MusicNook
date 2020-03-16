@@ -2,7 +2,7 @@
 
 - **Anno accademico**: 2019-2020
 
-- **Titolo del progetto**: Interfaccia multipattaforma (iOS e Android) per la gestione e la ricerca di informazioni relative ad artisti e gruppi musicali.
+- **Titolo del progetto**: Interfaccia multi-pattaforma (iOS e Android) per la gestione e la ricerca di informazioni relative ad artisti e gruppi musicali.
 
 - **Studente**: Lorenzo Andriani
 
