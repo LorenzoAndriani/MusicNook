@@ -10,7 +10,7 @@
 
 Lo scopo di questo progetto è quello di creare un'appicazione multi-piattaforma (iOS e Android) in grado di fornire tutte le caratteristiche relative ai vari artisti. Nello specifico il progetto sarà suddiviso in cinque categorie. 
 
-- Home: dove verranno visualizzate le uscite dei vari artisti. In questa sezione verranno inoltre aggiunte alcune playlist da consigliare all'utenti, data la massiccia approvazione dell'idea nel sondaggio.
+- Home: dove verranno visualizzate le uscite dei vari artisti. In questa sezione verranno inoltre aggiunte alcune playlist da consigliare all'utente, data la massiccia approvazione dell'idea nel sondaggio.
 
 - Artisti: Una rubrica in cui l'utente potrà selezionare un determinato artista di cui saranno elencate le varie caratteristiche tra cui, Storia, Prossime Uscite, Live, Album, Singoli e Link Social.
 
@@ -34,7 +34,18 @@ Come risultato finale ci si aspetta un'applicazione facile nel suo utilizzo e ch
 # Sommario
   
  Inizialmente è stata fatta una ricerca su un campione di 12 persone per capire le necessità e l'interesse su cui verte l'attezione di alcuni possibili fruitori finali. A questo scopo è stato creato un modulo Google [(link)](https://forms.gle/14nzKjwpztQkoJcHA) e sono stati raccolti dati e idee per il progetto. 
+ 
+ # Problemi riscontrati
+ 
+ Per il momento 
 
 # Documenti del progetto
   
 Qui sono presenti le statistiche ottenute e gli eventuali commenti da parte degli utenti [(link)](https://github.com/LorenzoAndriani/progettoHCI/tree/master/Statistiche). Verrà quindi sviluppata l'applicazione concentrandosi anche e sopratutto sul responso ottenuto.
+
+# Esecuzione
+
+Per eseguire il progetto è necessario:
+1) Recarsi all'interno della cartella da terminale.
+2) Sempre da terminale eseguire il comando 'ionic serve'.
+
