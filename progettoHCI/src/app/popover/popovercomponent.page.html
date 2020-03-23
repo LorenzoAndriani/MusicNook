@@ -1,0 +1,20 @@
+<ion-content padding>
+  <ion-grid>
+    
+    <ion-row><ion-col><ion-item *ngFor="let artisti of intems" href="{{artisti.spotify}}">
+      <ion-label><h2>Spotify</h2></ion-label>
+    </ion-item> </ion-col></ion-row>
+
+    <ion-row><ion-col><ion-item *ngFor="let artisti of intems" href="{{artisti.apple}}">
+      <ion-label><h2>Apple Music</h2></ion-label>
+    </ion-item> </ion-col></ion-row>
+
+    <ion-row><ion-col><ion-item *ngFor="let artisti of intems" routerLink="{{artisti.pagina}}" (click)="ClosePopover()">
+      <ion-label><h2>Artista</h2></ion-label>
+    </ion-item> </ion-col></ion-row>
+
+    <ion-row><ion-col><ion-button
+      expand="block" color="danger" (click)="ClosePopover()">Indietro</ion-button></ion-col></ion-row>
+  
+    </ion-grid>
+</ion-content>

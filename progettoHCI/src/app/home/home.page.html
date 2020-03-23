@@ -1,0 +1,392 @@
+ <ion-header>
+  <ion-toolbar>
+    <!-- MENU
+      <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>-->
+       <ion-title>Home</ion-title>
+<!--<div class="settings">
+ <ion-icon name="cog-outline" size="large"></ion-icon>
+</div>-->
+</ion-toolbar>
+</ion-header>
+
+  <!-- ALTRO
+  <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+    </ion-toolbar>
+  
+  <ion-header [translucent]="true">
+    
+  </ion-header>
+  <ion-content [fullscreen]="true">
+    <ion-header collapse="condense">
+    </ion-header>-->
+  
+   <!--BOTTONE
+      <ion-button href="aboutus">about us
+    </ion-button>-->
+  
+  
+
+  <!--CARD-->
+
+  <ion-content>
+    <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)" pullFactor="0.2">
+      <ion-refresher-content>
+      </ion-refresher-content>
+    </ion-refresher>
+
+    <div class="cards">
+
+      <ion-card>
+        <ion-card-header>
+          <ion-card-subtitle>Salmo</ion-card-subtitle>
+          <ion-card-title>Playlist</ion-card-title>
+          <ion-card-subtitle color="danger">ALBUM</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          Salmo torna in scena con un nuovo album.
+        </ion-card-content>
+        <ion-footer>
+          <ion-row>
+            <ion-col center text-center>
+              <ion-button size="small" color="light" expand="full" href="https://open.spotify.com/album/5F6r4JU7TdqI8YOWzj6Fyn">
+                <div>Spotify</div>
+              </ion-button>
+            </ion-col>
+            <ion-col center text-center>
+              <ion-button size="small" color="light" expand="full" href="https://music.apple.com/it/album/playlist/1438143525">
+                <div>Apple Music</div>
+              </ion-button>
+            </ion-col>
+            <ion-col center text-center>
+              <ion-button size="small" color="light" expand="full" routerLink="/salmo">
+                <div>Artista</div>
+              </ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-footer>
+      </ion-card>
+
+      <ion-card>
+        <ion-card-header>
+          <ion-card-subtitle>Francesca Michielin</ion-card-subtitle>
+          <ion-card-title>Feat (stato di natura)</ion-card-title>
+          <ion-card-subtitle color="danger">ALBUM</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          Francesca Michielin sorprende con un disco fuori dai suoi canoni.
+        </ion-card-content>
+        <ion-footer>
+          <ion-row>
+            <ion-col center text-center>
+              <ion-button size="small" color="light" expand="full" href="https://open.spotify.com/album/28UKO6wlegGpOiMgOeOgOp?si=sVTNW24sQDeEartR5CUjdQ">
+                <div>Spotify</div>
+              </ion-button>
+            </ion-col>
+            <ion-col center text-center>
+              <ion-button size="small" color="light" expand="full" href="https://music.apple.com/it/album/feat-stato-di-natura/1501834922">
+                <div>Apple Music</div>
+              </ion-button>
+            </ion-col>
+            <ion-col center text-center>
+              <ion-button size="small" color="light" expand="full" routerLink="/francescamichelin">
+                <div>Artista</div>
+              </ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-footer>
+      </ion-card>
+
+      <ion-card>
+        <ion-card-header>
+          <ion-card-subtitle>Tiziano Ferro</ion-card-subtitle>
+          <ion-card-title>Accetto Miracoli</ion-card-title>
+          <ion-card-subtitle color="danger">ALBUM</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          Il nuovo album di Tiziano Ferro è fuori ora.
+        </ion-card-content>
+        <ion-footer>
+          <ion-row>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" href="https://open.spotify.com/album/2OFCijOtzwFMkFNLRdShHw">
+                <div>Spotify</div>
+              </ion-button>
+            </ion-col>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" href="https://music.apple.com/it/album/accetto-miracoli/1483758408">
+                <div>Apple Music</div>
+              </ion-button>
+            </ion-col>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" routerLink="/tizianoferro">
+                <div>Artista</div>
+              </ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-footer>
+      </ion-card>
+  
+      <ion-card>
+        <ion-card-header>
+          <ion-card-subtitle>Achille Lauro</ion-card-subtitle>
+          <ion-card-title>Rolls Royce</ion-card-title>
+          <ion-card-subtitle color="danger">SINGOLO</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          Fuori ora il nuovo singolo di Achille Lauro che si intitola "Rolls Royce"
+        </ion-card-content>
+        <ion-footer>
+          <ion-row>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" href="https://open.spotify.com/track/68IBz8C8oFUIVC4Xgf0f0g?si=eBMC8D_tS3O7ybrkZvD83w">
+                <div>Spotify</div>
+              </ion-button>
+            </ion-col>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" href="https://music.apple.com/it/album/rolls-royce-feat-boss-doms-frenetik-orang3/1456786755?i=1456786757">
+                <div>Apple Music</div>
+              </ion-button>
+            </ion-col>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" routerLink="/achillelauro">
+                <div>Artista</div>
+              </ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-footer>
+      </ion-card>
+  
+      <ion-card>
+        <ion-card-header>
+          <ion-card-subtitle>HIPHOPTENDER</ion-card-subtitle>
+          <ion-card-title>Nuova Wave</ion-card-title>
+          <ion-card-subtitle color="success">PLAYLIST (Spotify)</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          Genere: Hip Hop, Rap (Italiano)
+        </ion-card-content>
+        <ion-footer>
+          <ion-row>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" href="https://open.spotify.com/playlist/3lfTZzfGKJpgHznnjQaCVV?si=GZL7alpcQTOZdKrTXXPJsg">
+              ASCOLTA</ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-footer>
+      </ion-card>
+  
+      <ion-card>
+        <ion-card-header>
+          <ion-card-subtitle>Davide Calandra</ion-card-subtitle>
+          <ion-card-title>Nient'altro</ion-card-title>
+          <ion-card-subtitle color="danger">SINGOLO</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          Il rapper toscano è fuori con il terzo singolo del suo "Preludio".
+        </ion-card-content>
+        <ion-footer>
+          <ion-row>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" href="https://open.spotify.com/track/1DPSTMZeAGhibCJJVondC6?si=TjTQlf6YR9S4N_S86O_vug">
+                <div>Spotify</div>
+              </ion-button>
+            </ion-col>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" href="https://music.apple.com/it/album/nientaltro-single/1502527517">
+                <div>Apple Music</div>
+              </ion-button>
+            </ion-col>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" routerLink="/davidecalandra">
+                <div>Artista</div>
+              </ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-footer>
+      </ion-card>
+  
+      <ion-card>
+        <ion-card-header>
+          <ion-card-subtitle>TRX RADIO</ion-card-subtitle>
+          <ion-card-title>TRX Radio</ion-card-title>
+          <ion-card-subtitle color="warning">WEB RADIO</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          Genere: Rap (Italiano)
+        </ion-card-content>
+        <ion-footer>
+          <ion-row>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" href="https://play.trxradio.it/">
+              ASCOLTA</ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-footer>
+      </ion-card>
+  
+      <ion-card>
+        <ion-card-header>
+          <ion-card-subtitle>Marracash</ion-card-subtitle>
+          <ion-card-title>Neon: Le ali (feat. Elisa)</ion-card-title>
+          <ion-card-subtitle color="danger">SINGOLO</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          Un nuovo singolo che vede collaborare per la prima volta Marracash e Elisa.
+        </ion-card-content>
+        <ion-footer>
+          <ion-row>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" href="https://open.spotify.com/track/1eUQzE6z4GUgA0byOPeCJF?si=tUmA1ovERYmmJj1826QzaA">
+                <div>Spotify</div>
+              </ion-button>
+            </ion-col>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" href="https://music.apple.com/it/album/neon-le-ali-single/1501341556">
+                <div>Apple Music</div>
+              </ion-button>
+            </ion-col>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" routerLink="/marracash">
+                <div>Artista</div>
+              </ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-footer>
+      </ion-card>
+  
+      <ion-card>
+        <ion-card-header>
+          <ion-card-subtitle>Ghali</ion-card-subtitle>
+          <ion-card-title>DNA</ion-card-title>
+          <ion-card-subtitle color="danger">ALBUM</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          È il secondo album in studio dell'artista di Baggio.
+        </ion-card-content>
+        <ion-footer>
+          <ion-row>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" href="https://open.spotify.com/album/0Cm3SGEHCjn9RAQrzuHX9I?si=XbP4k5I9SzK_yU8dDGypAw">
+                <div>Spotify</div>
+              </ion-button>
+            </ion-col>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" href="https://music.apple.com/it/album/dna/1493948866">
+                <div>Apple Music</div>
+              </ion-button>
+            </ion-col>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" routerLink="/ghali">
+                <div>Artista</div>
+              </ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-footer>
+      </ion-card>
+      
+        <ion-card>
+          <ion-card-header>
+            <ion-card-subtitle>Apple Music</ion-card-subtitle>
+            <ion-card-title>Successi del momento</ion-card-title>
+            <ion-card-subtitle color="primary">PLAYLIST (Apple Music)</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            Genere: Pop (Globale)
+          </ion-card-content>
+          <ion-footer>
+            <ion-row>
+              <ion-col center text-center>
+                <ion-button color="light" expand="full" href="https://music.apple.com/it/playlist/successi-del-momento/pl.f4d106fed2bd41149aaacabb233eb5eb">
+                ASCOLTA</ion-button>
+              </ion-col>
+            </ion-row>
+          </ion-footer>
+      </ion-card>
+    
+      <ion-card>
+        <ion-card-header>
+          <ion-card-subtitle>Nitro</ion-card-subtitle>
+          <ion-card-title>GarbAge</ion-card-title>
+          <ion-card-subtitle color="danger">ALBUM</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          È fuori ora il nuovo album di Nitro
+        </ion-card-content>
+        <ion-footer>
+          <ion-row>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" href="https://open.spotify.com/album/1PzWwe1L2ijXoIbkL3PemV?si=cjq7lkQHSsu-38FC71zITQ">
+                <div>Spotify</div>
+              </ion-button>
+            </ion-col>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" href="https://music.apple.com/it/album/garbage/1499313932">
+                <div>Apple Music</div>
+              </ion-button>
+            </ion-col>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" routerLink="/nitro">
+                <div>Artista</div>
+              </ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-footer>
+      </ion-card>
+  
+      <ion-card>
+        <ion-card-header>
+          <ion-card-subtitle>Di Fedez e Luis Sal</ion-card-subtitle>
+          <ion-card-title>Muschio Selvaggio</ion-card-title>
+          <ion-card-subtitle color="success">PODCAST (Spotify)</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          Podcast dedicato a temi di cultura e società con ospiti diversi ad ogni puntata.
+        </ion-card-content>
+        <ion-footer>
+          <ion-row>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" href="https://open.spotify.com/show/6jBWY6Mup7iEFSYvMiVw7b?si=nideoa4xRJS5GfBIa_97qQ">
+              ASCOLTA</ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-footer>
+      </ion-card>
+
+      <ion-card>
+        <ion-card-header>
+          <ion-card-subtitle>Fedez</ion-card-subtitle>
+          <ion-card-title>Paranoia Airlines</ion-card-title>
+          <ion-card-subtitle color="danger">ALBUM</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          "Paranoia Airlines" è il titolo del nuovo album di Fedez.
+        </ion-card-content>
+        <ion-footer>
+          <ion-row>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" href="https://open.spotify.com/album/20pEaghSWdY2ti2tCEm3FI">
+                <div>Spotify</div>
+              </ion-button>
+            </ion-col>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" href="https://music.apple.com/it/album/paranoia-airlines/1446457984">
+                <div>Apple Music</div>
+              </ion-button>
+            </ion-col>
+            <ion-col center text-center>
+              <ion-button color="light" expand="full" routerLink="/fedez">
+                <div>Artista</div>
+              </ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-footer>
+      </ion-card>
+
+  </div>
+  <ion-button expand="full" disabled="true">PER OGGI É TUTTO</ion-button>
+  </ion-content>

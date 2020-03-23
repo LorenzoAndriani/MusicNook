@@ -1,0 +1,29 @@
+<ion-header traslucent="true">
+  <ion-toolbar>
+    <ion-toolbar>
+ <ion-searchbar (ionInput)="getItems($event)" spellcheck="true" animated="true"></ion-searchbar>
+  </ion-toolbar>
+  </ion-toolbar>
+</ion-header>
+
+<!--<ion-header traslucent="true">
+  <ion-toolbar>
+    <ion-toolbar>
+         <ion-title *ngIf="!isSearchBarOpened"></ion-title>
+ <ion-searchbar *ngIf="!isSearchBarOpened" (ionInput)="onSearch($event)" spellcheck="true" animated="true"></ion-searchbar>
+  </ion-toolbar>
+  </ion-toolbar>
+</ion-header>-->
+  
+<ion-content fullscreen>
+
+  <ion-list>
+    <ion-item *ngFor="let articoli of items" href="{{articoli.link}}">
+        <ion-label><h2><b>{{articoli.titolo}}</b></h2>
+         <h4>{{articoli.didascalia}}</h4>
+         <h5><em>By: {{articoli.by}} <br> Data: {{articoli.data}}</em></h5>
+        </ion-label>
+      </ion-item> 
+  </ion-list>
+
+</ion-content>
