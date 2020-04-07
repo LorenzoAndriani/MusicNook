@@ -121,3 +121,5 @@ Per eseguire il progetto è necessario:
 
 3)	Sempre da terminale eseguire il comando ionic serve oppure ionic serve -l se si vuole visualizzare l'applicazione sui due ambienti iOS e Android.
 
+4) Il progetto può essere eseguito anche da Cordova con il comando 
+
