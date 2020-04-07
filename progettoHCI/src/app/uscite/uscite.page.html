@@ -1,0 +1,74 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Uscite</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)" pullFactor="0.2">
+    <ion-refresher-content>
+    </ion-refresher-content>
+  </ion-refresher>
+  
+  <ion-card *ngFor="let uscite of items">
+    <ion-card-header>
+      <ion-card-subtitle>{{uscite.artista}}</ion-card-subtitle>
+      <ion-card-title>{{uscite.titolo}}</ion-card-title>
+      <ion-card-subtitle>{{uscite.tipo}}</ion-card-subtitle>
+      <ion-card-subtitle color="danger">{{uscite.data}}</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      {{uscite.testo}}
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header >
+      <ion-card-subtitle>Emis Killa</ion-card-subtitle>
+      <ion-card-title>Supereroe</ion-card-title>
+      <ion-card-subtitle>SINGOLO</ion-card-subtitle>
+      <ion-card-subtitle color="danger">03 APRILE 2020</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Il rapper di Vimercate è pronto a tornare.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header >
+      <ion-card-subtitle>Lazza</ion-card-subtitle>
+      <ion-card-title>Zzala</ion-card-title>
+      <ion-card-subtitle>ALBUM</ion-card-subtitle>
+      <ion-card-subtitle color="danger">20 APRILE 2020</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Sarà il terzo album dell'artista milanese.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header >
+      <ion-card-subtitle>Childish Gambino</ion-card-subtitle>
+      <ion-card-title>Donald Glover</ion-card-title>
+      <ion-card-subtitle>ALBUM</ion-card-subtitle>
+      <ion-card-subtitle color="danger">20 MAGGIO 2020</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Uscirà il quarto album in studio dell'artista statunitense.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header >
+      <ion-card-subtitle>Geolier</ion-card-subtitle>
+      <ion-card-title>Emanuele</ion-card-title>
+      <ion-card-subtitle>ALBUM</ion-card-subtitle>
+      <ion-card-subtitle color="danger">14 GIUGNO 2020</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      L'artista ha annunciato da poco il suo primo album.
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
+
