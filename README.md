@@ -87,17 +87,25 @@ Alcuni di questi utenti sono stati registrati durante il test per vedere e anali
 Da questa fase è emerso che l’utente ha avuto difficoltà nel distinguere a primo impatto la differenza tra la sezione Home e Uscite, in particolare quest’ultima non avendo per il momento alcuna azione associata ed essendo un insieme di Card è stata interpretata come una sezione cliccabile, invece che di sola lettura. 
 È emerso anche che per alcuni utenti la sezione dei link social nella scheda di ogni artista dovrebbe avere i loghi al posto del testo, mantenendo il colore e spostando questa sezione subito dopo la storia dell’artista. Un'altra eventuale soluzione potrebbe essere inserire una lista puntata iniziale per definire le sezioni della scheda.
 
+Questo non è stato fatto ritenendo la maggior parte delle schede degli Artisti abbastanza brevi da non aver bisogno di un indice, che aggiungerebbe ulteriore complessità ad una prima visualizzazione della pagina.
+Un’altra considerazione fatta dagli utenti è stata quella di aggiungere una sezione di ricerca nella parte superiore della Home che consenta di trovare artisti, articoli e live con eventualmente dei filtri applicabili.
+
 
 # Considerazioni
 
-A maggiore integrazione nell'applicazione potrà essere aggiunto un sistema di notifica quando viene aggiornata la sezione "Uscite". 
+A maggiore integrazione nell'applicazione potrà essere aggiunto un sistema di notifica quando viene aggiornata la sezione "Uscite". Quest’ultima sezione potrà avere anche la possibilità di seguire un determinato artista in modo da ricevere degli avvisi personalizzati sulle varie pubblicazioni o date live.
 
 Inoltre la parte relativa ai "Live" potrà contenere un menu a tendina da cui poter filtrare la data del concerto, il luogo e l'artista.
+
   
 
 # Documenti del progetto
 
-Qui sono presenti le statistiche ottenute e gli eventuali commenti da parte degli utenti [(link)](https://github.com/LorenzoAndriani/progettoHCI/tree/master/Statistiche). L'applicazione è stata sviluppata concentrandosi anche e sopratutto sul responso ottenuto.
+*	Statistiche ottenute nella prima fase di need finding.
+*	Mockup.
+*	Statistiche usability testing.
+*	Video usability testing.
+*	Progetto.
 
   
 
@@ -107,8 +115,9 @@ Qui sono presenti le statistiche ottenute e gli eventuali commenti da parte degl
 
 Per eseguire il progetto è necessario:
 
-1) Recarsi all'interno della cartella da terminale.
+1)	Unzippare le due cartelle 'platforms.7z' e 'node_modules.7z' (presenti all'interno della cartella progettoHCI).
 
-2) Sempre da terminale eseguire il comando `ionic serve` oppure `ionic serve -l` se si vuole visualizzare l'applicazione sui due ambienti iOS e Android.
+2)	Recarsi all'interno della cartella da terminale.
 
-3) Il alternativa si può eseguire l'applicazione anche su Cordova attraverso il comando `ionic cordova emulate ios` (per il momento solo in versione iOS).
+3)	Sempre da terminale eseguire il comando ionic serve oppure ionic serve -l se si vuole visualizzare l'applicazione sui due ambienti iOS e Android.
+
